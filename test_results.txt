@@ -1,0 +1,54 @@
+Test run performed before delivery: Python 3.12.3, Linux, Xvfb virtual display.
+Command: python -m unittest -v
+
+test_09_bfs_returns_minimum_hops_on_random_graphs (test_attack_path_visualizer.TestAlgorithmCorrectness.test_09_bfs_returns_minimum_hops_on_random_graphs) ... ok
+test_10_dfs_reachability_and_path_validity_on_random_graphs (test_attack_path_visualizer.TestAlgorithmCorrectness.test_10_dfs_reachability_and_path_validity_on_random_graphs) ... ok
+test_deep_line_graph_has_no_recursion_problem (test_attack_path_visualizer.TestAlgorithmCorrectness.test_deep_line_graph_has_no_recursion_problem) ... ok
+test_each_vertex_visited_at_most_once_and_edge_checks_bounded (test_attack_path_visualizer.TestAlgorithmCorrectness.test_each_vertex_visited_at_most_once_and_edge_checks_bounded) ... ok
+test_reconstruct_path (test_attack_path_visualizer.TestAlgorithmCorrectness.test_reconstruct_path) ... ok
+test_record_steps_does_not_change_result (test_attack_path_visualizer.TestAlgorithmCorrectness.test_record_steps_does_not_change_result) ... ok
+test_03_source_equals_target (test_attack_path_visualizer.TestBoundaryCases.test_03_source_equals_target) ... ok
+test_04_unreachable_target (test_attack_path_visualizer.TestBoundaryCases.test_04_unreachable_target) ... ok
+test_05_disconnected_graph (test_attack_path_visualizer.TestBoundaryCases.test_05_disconnected_graph) ... ok
+test_06_single_node_graph (test_attack_path_visualizer.TestBoundaryCases.test_06_single_node_graph) ... ok
+test_07_cyclic_graph_terminates (test_attack_path_visualizer.TestBoundaryCases.test_07_cyclic_graph_terminates) ... ok
+test_07b_cycle_with_unreachable_target_terminates (test_attack_path_visualizer.TestBoundaryCases.test_07b_cycle_with_unreachable_target_terminates) ... ok
+test_08_invalid_source_or_target (test_attack_path_visualizer.TestBoundaryCases.test_08_invalid_source_or_target) ... ok
+test_08b_invalid_algorithm_name (test_attack_path_visualizer.TestBoundaryCases.test_08b_invalid_algorithm_name) ... ok
+test_11_empty_graph (test_attack_path_visualizer.TestBoundaryCases.test_11_empty_graph) ... ok
+test_12a_duplicate_edge_rejected_both_directions (test_attack_path_visualizer.TestGraphEditing.test_12a_duplicate_edge_rejected_both_directions) ... ok
+test_12b_self_loop_rejected (test_attack_path_visualizer.TestGraphEditing.test_12b_self_loop_rejected) ... ok
+test_12c_edge_to_unknown_device_rejected (test_attack_path_visualizer.TestGraphEditing.test_12c_edge_to_unknown_device_rejected) ... ok
+test_12d_device_name_validation (test_attack_path_visualizer.TestGraphEditing.test_12d_device_name_validation) ... ok
+test_12e_device_limit (test_attack_path_visualizer.TestGraphEditing.test_12e_device_limit) ... ok
+test_copy_is_independent (test_attack_path_visualizer.TestGraphEditing.test_copy_is_independent) ... ok
+test_neighbors_returns_copy (test_attack_path_visualizer.TestGraphEditing.test_neighbors_returns_copy) ... ok
+test_remove_connection (test_attack_path_visualizer.TestGraphEditing.test_remove_connection) ... ok
+test_remove_device_removes_its_edges (test_attack_path_visualizer.TestGraphEditing.test_remove_device_removes_its_edges) ... ok
+test_undirected_symmetry (test_attack_path_visualizer.TestGraphEditing.test_undirected_symmetry) ... ok
+test_validate_detects_corruption (test_attack_path_visualizer.TestGraphEditing.test_validate_detects_corruption) ... ok
+test_compare (test_attack_path_visualizer.TestGuiSmoke.test_compare) ... ok
+test_dfs_and_no_path_in_gui (test_attack_path_visualizer.TestGuiSmoke.test_dfs_and_no_path_in_gui) ... ok
+test_editor_actions (test_attack_path_visualizer.TestGuiSmoke.test_editor_actions) ... ok
+test_generate_navigate_and_reset (test_attack_path_visualizer.TestGuiSmoke.test_generate_navigate_and_reset) ... ok
+test_missing_selection_reports_error (test_attack_path_visualizer.TestGuiSmoke.test_missing_selection_reports_error) ... ok
+test_startup_defaults (test_attack_path_visualizer.TestGuiSmoke.test_startup_defaults) ... ok
+test_01_reachable_target_bfs_and_dfs (test_attack_path_visualizer.TestNormalGraph.test_01_reachable_target_bfs_and_dfs) ... ok
+test_02_multiple_paths_bfs_shortest_dfs_longer (test_attack_path_visualizer.TestNormalGraph.test_02_multiple_paths_bfs_shortest_dfs_longer) ... ok
+test_bfs_traversal_order_is_by_layers (test_attack_path_visualizer.TestNormalGraph.test_bfs_traversal_order_is_by_layers) ... ok
+test_sample_network_is_consistent (test_attack_path_visualizer.TestNormalGraph.test_sample_network_is_consistent) ... ok
+test_bfs_queue_is_fifo (test_attack_path_visualizer.TestStepRecording.test_bfs_queue_is_fifo) ... ok
+test_dfs_stack_is_current_branch (test_attack_path_visualizer.TestStepRecording.test_dfs_stack_is_current_branch) ... ok
+test_steps_are_immutable (test_attack_path_visualizer.TestStepRecording.test_steps_are_immutable) ... ok
+test_steps_are_indexed_and_bracketed (test_attack_path_visualizer.TestStepRecording.test_steps_are_indexed_and_bracketed) ... ok
+test_visited_grows_monotonically (test_attack_path_visualizer.TestStepRecording.test_visited_grows_monotonically) ... ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 0.606s
+
+OK
+
+=== Second run WITHOUT a display (GUI smoke tests skip) ===
+Ran 41 tests in 0.060s
+
+OK (skipped=6)
